@@ -56,11 +56,16 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scriptes\Game\PlatformIgnoreLayers.cs" />
+    <Compile Include="Assets\Scriptes\Game\Player\PlayerDie.cs" />
+    <Compile Include="Assets\Scriptes\Game\Floor\PlatformIgnoreLayers.cs" />
+    <Compile Include="Assets\Scriptes\Game\Player\PlayerOptions.cs" />
     <Compile Include="Assets\Scriptes\Menu\MenuBatton.cs" />
-    <Compile Include="Assets\Scriptes\Game\PlayerMove.cs" />
+    <Compile Include="Assets\Scriptes\Game\Player\PlayerMove.cs" />
     <Compile Include="Assets\Scriptes\Game\PauseScript.cs" />
-    <Compile Include="Assets\Scriptes\Game\LayersChecker.cs" />
+    <Compile Include="Assets\Scriptes\Game\Player\LayersChecker.cs" />
+    <Compile Include="Assets\Scriptes\Game\Enemy\EnemyOptions.cs" />
+    <Compile Include="Assets\Scriptes\Game\Enemy\EnemyGuns\GunsOprions.cs" />
+    <Compile Include="Assets\Scriptes\Game\Enemy\EnemyGuns\BulletOptions.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

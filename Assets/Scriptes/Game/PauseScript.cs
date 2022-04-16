@@ -24,14 +24,14 @@ public class PauseScript : MonoBehaviour
     }
     private void Pause()
     {
-        Time.timeScale = 0;
+        Time.timeScale = 0f;
         pauseMenuUI.SetActive(true);
         isGameInPause = true;
     }
 
     public void Resume() 
     {
-        Time.timeScale = 1;
+        Time.timeScale = 1f;
         pauseMenuUI.SetActive(false);
         isGameInPause = false;
     }
